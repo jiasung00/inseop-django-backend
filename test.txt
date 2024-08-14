@@ -1,1 +1,36 @@
-print("hello")
+깃허브 보내기
+
+jia@DESKTOP-3J6V6PB MINGW64 ~/Desktop/inseop-django-backend/inseop-django-backend (main)
+$ git add ji3.py
+
+git commit -m "보내기"
+
+git push origin main
+
+
+# 삭제 했을 경우 
+git add -u
+git commit -m "Remove ji1.py, ji2.py, ji3.py after successful tests"
+git push origin main
+
+#수정
+git add test.txt
+jia@DESKTOP-3J6V6PB MINGW64 ~/Desktop/inseop-django-backend/inseop-django-backend (main)
+$ git commit -m "수정"
+[main a517553] 수정
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+ git push origin main
+
+
+#깃허브에서 삭제 했을 때
+git add .
+git commit -m "깃허브에서 삭제함"
+git pull origin main
+
+
+
+
+
+
