@@ -32,5 +32,5 @@ git pull origin main
 
 
 
-
-
+git commit -m "장고"
+git push -u origin main
